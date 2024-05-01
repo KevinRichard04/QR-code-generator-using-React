@@ -52,7 +52,7 @@ export const QrCode = () => {
         <button className='generate-button' disabled={loading} onClick={generateQr} >Generate QR code</button>
         <button className='download-button' onClick={downloadQr}>Download QR code</button>
       </div>
-      <p className='footer'>Designed by <a href='https://github.com/KevinRichard04'>Kevin Richard</a></p>
+      <p className='footer'>Designed by <a href='https://github.com/KevinRichard04' target="_blank">Kevin Richard</a></p>
     </div>
   )
 }
